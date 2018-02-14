@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CSCI3130PROJECT</string>
+    <string name="title_activity_login_page">LoginPage</string>
 </resources>
