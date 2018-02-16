@@ -8,7 +8,7 @@ import android.widget.EditText;
 
 public class LoginActivity extends AppCompatActivity {
 
-    private
+    
     private EditText userEnterEmail, userEnterPassword;
     private Button userClickSignIn;
 
