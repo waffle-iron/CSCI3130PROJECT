@@ -12,7 +12,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 
-public class MainActivity extends AppCompatActivity {
+public class CourseAddActivity extends AppCompatActivity {
 
     private FirebaseDatabase database;
     private DatabaseReference Instructor;
@@ -27,10 +27,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.courseadd);
 
         database = FirebaseDatabase.getInstance();
-        Instructor = database.getReference("Instructor");
+        Instructor = database.getReference("Course");
 
         submit = (Button)findViewById(R.id.Submit);
         id = (EditText) findViewById(R.id.CourseID);
