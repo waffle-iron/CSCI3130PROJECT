@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">CSCI3130PROJECT</string>
     <string name="title_activity_login_page">LoginPage</string>
+    <string name="AddClassButton">Add Course</string>
+    <string name="DropClassButton">Drop Class</string>
 </resources>
