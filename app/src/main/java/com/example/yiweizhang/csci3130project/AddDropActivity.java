@@ -29,7 +29,8 @@ public class AddDropActivity extends AppCompatActivity {
 
         // firebase
         database = FirebaseDatabase.getInstance();
-        myRef = database.getReference("");
+        myRef = database.getReference("course");
+
 
 
     }
@@ -40,6 +41,9 @@ public class AddDropActivity extends AppCompatActivity {
         super.onStart();
 
         // read data from firebase
+
+
+
 
 
 
