@@ -88,6 +88,19 @@ public class Course {
         public void setName(String name) {
             this.name = name;
         }
+
+        public String toString(){
+
+        return  "\nThe Course Name is "+ getName() + "\n" +
+                "\nThe location of the class is "+ getLocation() +"\n"+
+                "\nThe course hour is "+ getCourseHour() +"\n"+
+                "\nCourse Id "+ getCourseId() +"\n"+
+                "\nThe day of the class "+ getDay() +"\n"+
+                "\nThe instructor is "+ getInstructor() +"\n"+
+                "\nSection Number is "+ getSection() +"\n"+
+                "\nThe time of the class is "+ getTime() +"\n";
+
+    }
     }
 
 
