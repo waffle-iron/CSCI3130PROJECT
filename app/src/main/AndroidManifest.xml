@@ -21,6 +21,9 @@
             android:label="@string/title_activity_login_page"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
+        <activity android:name=".AccountActivity">
+
+        </activity>
 
     </application>
 
