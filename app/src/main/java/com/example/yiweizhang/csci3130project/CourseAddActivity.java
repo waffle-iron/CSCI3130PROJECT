@@ -27,7 +27,7 @@ public class CourseAddActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.courseadd);
+        setContentView(R.layout.course_add);
 
         database = FirebaseDatabase.getInstance();
         Instructor = database.getReference("Course");
