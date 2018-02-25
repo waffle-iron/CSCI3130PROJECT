@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">CSCI3130PROJECT</string>
+    <string name="title_activity_login_page">LoginPage</string>
+    <string name="DropClassButton">Drop course</string>
+    <string name="AddClassButton">Add course:</string>
 
     <string-array name="Course">
         <item> Database Design</item>
