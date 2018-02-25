@@ -123,7 +123,7 @@ public class SecondActivity extends AppCompatActivity {
             if(toolbar.getTitle().toString().equalsIgnoreCase("Introduction to C++")){
                 textView.setText(Courselist.get(16).toString());
             }
-            if(toolbar.getTitle().toString().equalsIgnoreCase("Introduction to Ui")){
+            if(toolbar.getTitle().toString().equalsIgnoreCase("Introduction to UI")){
                 textView.setText(Courselist.get(17).toString());
             }
             if(toolbar.getTitle().toString().equalsIgnoreCase("Math 2112")){
