@@ -13,6 +13,7 @@ import android.widget.Button;
 
 public class AccountActivity extends AppCompatActivity {
     private Button register;
+    private Button timetable;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,5 +28,16 @@ public class AccountActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        timetable = (Button)findViewById(R.id.timeTable);
+        timetable.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(AccountActivity.this, MainActivity.class);
+                startActivity(intent1);
+            }
+        });
+
+
     }
 }
