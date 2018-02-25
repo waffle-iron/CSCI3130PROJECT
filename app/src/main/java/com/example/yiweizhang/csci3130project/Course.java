@@ -91,7 +91,7 @@ public class Course {
 
         public String toString(){
 
-        return  "\nThe Course Name is "+ getName() + "\n" +
+        return  "The Course Name is "+ getName() + "\n" +
                 "\nThe location of the class is "+ getLocation() +"\n"+
                 "\nThe course hour is "+ getCourseHour() +"\n"+
                 "\nCourse Id "+ getCourseId() +"\n"+

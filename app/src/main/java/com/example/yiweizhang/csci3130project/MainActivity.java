@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent intent = new Intent(MainActivity.this,SecondActivity.class);
-                intent.putExtra("Course", listView.getItemIdAtPosition(i));
+                intent.putExtra("Course", listView.getItemAtPosition(i).toString());
                 startActivity(intent);
             }
         });

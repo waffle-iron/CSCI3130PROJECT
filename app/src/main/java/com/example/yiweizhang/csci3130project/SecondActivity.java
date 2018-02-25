@@ -72,8 +72,69 @@ public class SecondActivity extends AppCompatActivity {
 
         if(bundle!=null){
             toolbar.setTitle(bundle.getString("Course"));
+            if(toolbar.getTitle().toString().equalsIgnoreCase("Database Design")){
+                textView.setText(Courselist.get(0).toString());
+            }
+            if(toolbar.getTitle().toString().equalsIgnoreCase("Ensemble")){
+                textView.setText(Courselist.get(1).toString());
+            }
+            if(toolbar.getTitle().toString().equalsIgnoreCase("Ensemble 1")){
+                textView.setText(Courselist.get(2).toString());
+            }
+            if(toolbar.getTitle().toString().equalsIgnoreCase("Voice")){
+                textView.setText(Courselist.get(3).toString());
+            }
+            if(toolbar.getTitle().toString().equalsIgnoreCase("Guitar")){
+                textView.setText(Courselist.get(4).toString());
+            }
+            if(toolbar.getTitle().toString().equalsIgnoreCase("Piano")){
+                textView.setText(Courselist.get(5).toString());
+            }
+            if(toolbar.getTitle().toString().equalsIgnoreCase("violin")){
+                textView.setText(Courselist.get(6).toString());
+            }
+            if(toolbar.getTitle().toString().equalsIgnoreCase("French")){
+                textView.setText(Courselist.get(7).toString());
+            }
+            if(toolbar.getTitle().toString().equalsIgnoreCase("Spanish")){
+                textView.setText(Courselist.get(8).toString());
+            }
+            if(toolbar.getTitle().toString().equalsIgnoreCase("Chinese")){
+                textView.setText(Courselist.get(9).toString());
+            }
+            if(toolbar.getTitle().toString().equalsIgnoreCase("Japanese")){
+                textView.setText(Courselist.get(10).toString());
+            }
+            if(toolbar.getTitle().toString().equalsIgnoreCase("German Fiction")){
+                textView.setText(Courselist.get(11).toString());
+            }
+            if(toolbar.getTitle().toString().equalsIgnoreCase("Halifax and the world")){
+                textView.setText(Courselist.get(12).toString());
+            }
+            if(toolbar.getTitle().toString().equalsIgnoreCase("Introduction to Java")){
+                textView.setText(Courselist.get(13).toString());
+            }
+            if(toolbar.getTitle().toString().equalsIgnoreCase("Introduction to C")){
+                textView.setText(Courselist.get(14).toString());
+            }
+            if(toolbar.getTitle().toString().equalsIgnoreCase("Introduction to python")){
+                textView.setText(Courselist.get(15).toString());
+            }
+            if(toolbar.getTitle().toString().equalsIgnoreCase("Introduction to UI")){
+                textView.setText(Courselist.get(16).toString());
+            }
+            if(toolbar.getTitle().toString().equalsIgnoreCase("Introduction to C++")){
+                textView.setText(Courselist.get(17).toString());
+            }
+            if(toolbar.getTitle().toString().equalsIgnoreCase("Math 2001")){
+                textView.setText(Courselist.get(18).toString());
+
+            } if(toolbar.getTitle().toString().equalsIgnoreCase("Math 2112")){
+                textView.setText(Courselist.get(19).toString());
+            }
+
         }
 
-        textView.setText(Courselist.get(5).toString());
+
     }
 }
