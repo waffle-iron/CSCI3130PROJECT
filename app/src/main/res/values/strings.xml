@@ -18,10 +18,10 @@
         <item> Introduction to Java</item>
         <item> Introduction to C</item>
         <item> Introduction to python</item>
-        <item> Introduction to UI</item>
         <item> Introduction to C++</item>
-        <item> Math 2001</item>
+        <item> Introduction to UI</item>
         <item> Math 2112</item>
+        <item> Math 2001</item>
 
     </string-array>
 </resources>

@@ -120,16 +120,16 @@ public class SecondActivity extends AppCompatActivity {
             if(toolbar.getTitle().toString().equalsIgnoreCase("Introduction to python")){
                 textView.setText(Courselist.get(15).toString());
             }
-            if(toolbar.getTitle().toString().equalsIgnoreCase("Introduction to UI")){
+            if(toolbar.getTitle().toString().equalsIgnoreCase("Introduction to C++")){
                 textView.setText(Courselist.get(16).toString());
             }
-            if(toolbar.getTitle().toString().equalsIgnoreCase("Introduction to C++")){
+            if(toolbar.getTitle().toString().equalsIgnoreCase("Introduction to Ui")){
                 textView.setText(Courselist.get(17).toString());
             }
-            if(toolbar.getTitle().toString().equalsIgnoreCase("Math 2001")){
+            if(toolbar.getTitle().toString().equalsIgnoreCase("Math 2112")){
                 textView.setText(Courselist.get(18).toString());
 
-            } if(toolbar.getTitle().toString().equalsIgnoreCase("Math 2112")){
+            } if(toolbar.getTitle().toString().equalsIgnoreCase("Math 2001")){
                 textView.setText(Courselist.get(19).toString());
             }
 
