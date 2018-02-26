@@ -2,10 +2,6 @@ package com.example.yiweizhang.csci3130project;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.widget.TextView;
 import java.util.*;
 
@@ -35,8 +31,6 @@ public class SecondActivity extends AppCompatActivity {
     Course c19 = new Course("Math 2001","Halifax",03,"Wed Fri",1130,3,13786,"Mary Killy");
 
     TextView textView;
-    Toolbar toolbar;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,72 +58,71 @@ public class SecondActivity extends AppCompatActivity {
         Courselist.add(c18);
         Courselist.add(c19);
 
-        toolbar = (Toolbar)findViewById(R.id.toolbar2);
 
         textView = (TextView)findViewById(R.id.textView);
 
         Bundle bundle = getIntent().getExtras();
 
         if(bundle!=null){
-            toolbar.setTitle(bundle.getString("Course"));
-            if(toolbar.getTitle().toString().equalsIgnoreCase("Database Design")){
+
+            if(bundle.getString("Course").equalsIgnoreCase("Database Design")){
                 textView.setText(Courselist.get(0).toString());
             }
-            if(toolbar.getTitle().toString().equalsIgnoreCase("Ensemble")){
+            if(bundle.getString("Course").equalsIgnoreCase("Ensemble")){
                 textView.setText(Courselist.get(1).toString());
             }
-            if(toolbar.getTitle().toString().equalsIgnoreCase("Ensemble 1")){
+            if(bundle.getString("Course").equalsIgnoreCase("Ensemble 1")){
                 textView.setText(Courselist.get(2).toString());
             }
-            if(toolbar.getTitle().toString().equalsIgnoreCase("Voice")){
+            if(bundle.getString("Course").equalsIgnoreCase("Voice")){
                 textView.setText(Courselist.get(3).toString());
             }
-            if(toolbar.getTitle().toString().equalsIgnoreCase("Guitar")){
+            if(bundle.getString("Course").equalsIgnoreCase("Guitar")){
                 textView.setText(Courselist.get(4).toString());
             }
-            if(toolbar.getTitle().toString().equalsIgnoreCase("Piano")){
+            if(bundle.getString("Course").equalsIgnoreCase("Piano")){
                 textView.setText(Courselist.get(5).toString());
             }
-            if(toolbar.getTitle().toString().equalsIgnoreCase("violin")){
+            if(bundle.getString("Course").equalsIgnoreCase("violin")){
                 textView.setText(Courselist.get(6).toString());
             }
-            if(toolbar.getTitle().toString().equalsIgnoreCase("French")){
+            if(bundle.getString("Course").equalsIgnoreCase("French")){
                 textView.setText(Courselist.get(7).toString());
             }
-            if(toolbar.getTitle().toString().equalsIgnoreCase("Spanish")){
+            if(bundle.getString("Course").equalsIgnoreCase("Spanish")){
                 textView.setText(Courselist.get(8).toString());
             }
-            if(toolbar.getTitle().toString().equalsIgnoreCase("Chinese")){
+            if(bundle.getString("Course").equalsIgnoreCase("Chinese")){
                 textView.setText(Courselist.get(9).toString());
             }
-            if(toolbar.getTitle().toString().equalsIgnoreCase("Japanese")){
+            if(bundle.getString("Course").equalsIgnoreCase("Japanese")){
                 textView.setText(Courselist.get(10).toString());
             }
-            if(toolbar.getTitle().toString().equalsIgnoreCase("German Fiction")){
+            if(bundle.getString("Course").equalsIgnoreCase("German Fiction")){
                 textView.setText(Courselist.get(11).toString());
             }
-            if(toolbar.getTitle().toString().equalsIgnoreCase("Halifax and the world")){
+            if(bundle.getString("Course").equalsIgnoreCase("Halifax and the world")){
                 textView.setText(Courselist.get(12).toString());
             }
-            if(toolbar.getTitle().toString().equalsIgnoreCase("Introduction to Java")){
+            if(bundle.getString("Course").equalsIgnoreCase("Introduction to Java")){
                 textView.setText(Courselist.get(13).toString());
             }
-            if(toolbar.getTitle().toString().equalsIgnoreCase("Introduction to C")){
+            if(bundle.getString("Course").equalsIgnoreCase("Introduction to C")){
                 textView.setText(Courselist.get(14).toString());
             }
-            if(toolbar.getTitle().toString().equalsIgnoreCase("Introduction to python")){
+            if(bundle.getString("Course").equalsIgnoreCase("Introduction to python")){
                 textView.setText(Courselist.get(15).toString());
             }
-            if(toolbar.getTitle().toString().equalsIgnoreCase("Introduction to UI")){
+            if(bundle.getString("Course").equalsIgnoreCase("Introduction to C++")){
                 textView.setText(Courselist.get(16).toString());
             }
-            if(toolbar.getTitle().toString().equalsIgnoreCase("Introduction to C++")){
+            if(bundle.getString("Course").equalsIgnoreCase("Introduction to UI")){
                 textView.setText(Courselist.get(17).toString());
             }
-            if(toolbar.getTitle().toString().equalsIgnoreCase("Math 2001")){
+            if(bundle.getString("Course").equalsIgnoreCase("Math 2112")){
                 textView.setText(Courselist.get(18).toString());
 
-            } if(toolbar.getTitle().toString().equalsIgnoreCase("Math 2112")){
+            }if(bundle.getString("Course").equalsIgnoreCase("Math 2001")){
                 textView.setText(Courselist.get(19).toString());
             }
 
