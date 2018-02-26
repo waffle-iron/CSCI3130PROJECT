@@ -27,7 +27,6 @@
         <activity android:name=".AccountActivity">
 
         </activity>
-
         <activity android:name=".SecondActivity">
         </activity>
 

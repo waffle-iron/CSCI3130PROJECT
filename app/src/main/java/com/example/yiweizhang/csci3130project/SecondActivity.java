@@ -58,14 +58,12 @@ public class SecondActivity extends AppCompatActivity {
         Courselist.add(c18);
         Courselist.add(c19);
 
-        //toolbar = (Toolbar)findViewById(R.id.toolbar2);
 
         textView = (TextView)findViewById(R.id.textView);
 
         Bundle bundle = getIntent().getExtras();
 
         if(bundle!=null){
-            //toolbar.setTitle(bundle.getString("Course"));
 
             if(bundle.getString("Course").equalsIgnoreCase("Database Design")){
                 textView.setText(Courselist.get(0).toString());
